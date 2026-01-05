@@ -1,10 +1,6 @@
 # ==============================================================================
 # MPDSR DATA CLEANING AND GEOGRAPHIC STANDARDIZATION SCRIPT
 # ==============================================================================
-# Purpose: Clean and standardize MPDSR data for geographic mapping and analysis
-# Author: Data Analysis Team
-# Date: [Current Date]
-# ==============================================================================
 
 # Clear workspace and load required packages
 # ------------------------------------------------------------------------------
@@ -387,4 +383,5 @@ cat("Output saved to:", output_file, "\n")
 cat("=================================================================\n")
 
 # Clean up intermediate objects (optional)
+
 rm(phem_weekly_2017, eth_adm2, mismatched_zones, mpdszones, shapefile_zones)
